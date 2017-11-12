@@ -4,8 +4,8 @@ class CreateInvoices < ActiveRecord::Migration[5.1]
       t.decimal :amount, precision:15, scale: 2, default: 0
       t.string :company
       t.string :contragent
-      t.string :currentcy
-      t.date :data
+      t.string :currency
+      t.date :date
 
       t.timestamps
     end

@@ -19,8 +19,8 @@ ActiveRecord::Schema.define(version: 20171111085218) do
     t.decimal "amount", precision: 15, scale: 2, default: "0.0"
     t.string "company"
     t.string "contragent"
-    t.string "currentcy"
-    t.date "data"
+    t.string "currency"
+    t.date "date"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end
